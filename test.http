@@ -1,7 +1,12 @@
 POST http://localhost:3000/users
-Content-Type: application/x-www-form-urlencoded
+Content-Type: application/json
 
-a=3987987&b=098980
+{
+    
+      "email": "momo@mail.com",
+      "password": "momo",
+      "role": "ADMIN"
+    }
 
 ###
 GET http://localhost:3000/users/3
